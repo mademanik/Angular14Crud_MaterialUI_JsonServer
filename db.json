@@ -1,0 +1,41 @@
+{
+  "productList": [
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 20,
+      "comment": "Sweet Mango",
+      "date": "2022-07-26T17:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Tomato",
+      "category": "Vegetables",
+      "freshness": "Brand New",
+      "price": 5,
+      "comment": "Fresh Tomato Ready",
+      "date": "2022-07-29T17:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Macbook Air",
+      "category": "Electronic",
+      "freshness": "Refurbished",
+      "price": 1000,
+      "comment": "Expensive Thing",
+      "date": "2022-07-03T17:00:00.000Z",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
