@@ -1,27 +1,40 @@
-# Angular14Crud
+# Angular 14 CRUD Using Material UI and JSON Server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+### Prerequisite
 
-## Development server
+* Node JS v16.15.0 or latest
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### How To Run
 
-## Code scaffolding
+* Open project directory by running this code
+```
+cd Angular14Crud_JsonWebserver
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Run this command if you've never install Angular CLI
+```
+npm install -g @angular/cli
+```
 
-## Build
+* Install the dependency by using Angular CLI
+```
+ng update
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Run this command if you've never install JSON-SERVER
+```
+npm install -g json-server
+```
 
-## Running unit tests
+* Run JSON-SERVER
+```
+json-server --watch db.json
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Run Project
+```
+npm start
+```
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Open http://localhost:4200/ on your Browser
+* Done
