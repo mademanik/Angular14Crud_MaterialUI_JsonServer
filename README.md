@@ -8,7 +8,7 @@
 
 * Open project directory by running this code
 ```
-cd Angular14Crud_JsonWebserver
+cd Angular14Crud_MaterialUI_JsonServer
 ```
 
 * Run this command if you've never install Angular CLI
