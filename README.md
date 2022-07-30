@@ -16,9 +16,9 @@ cd Angular14Crud_MaterialUI_JsonServer
 npm install -g @angular/cli
 ```
 
-* Install the dependency by using Angular CLI
+* Install the dependency
 ```
-ng update
+npm i
 ```
 
 * Run this command if you've never install JSON-SERVER
